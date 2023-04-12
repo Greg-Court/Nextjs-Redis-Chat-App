@@ -5,7 +5,7 @@ import { ButtonHTMLAttributes, FC } from "react";
 
 const buttonVariants = cva(
   // first argument is a string containing the base CSS classes that will be applied to the button component
-  "acive:scale-95 inline-flex items-center justify-center rounded-md text-sm font-medium transition-color focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none",
+  "active:scale-95 inline-flex items-center justify-center rounded-md text-sm font-medium transition-color focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none",
 
   // second argument is an object that defines the class variations and their associated CSS classes
   {
